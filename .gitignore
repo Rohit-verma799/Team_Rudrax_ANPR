@@ -1,0 +1,90 @@
+# ==========================================
+# Byte-compiled / optimized / ambient files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.env
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ==========================================
+# Media Files (Images, Videos, Datasets)
+# ==========================================
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.webp
+*.tiff
+*.svg
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mqp4
+/videos/
+/cropped/
+/data/
+/college/
+
+# ==========================================
+# Machine Learning Weights & Large Binaries
+# ==========================================
+*.pt
+*.pth
+*.onnx
+*.pdiparams
+*.pdiparams.info
+*.pdmodel
+*.engine
+*.tflite
+*.bin
+
+# ==========================================
+# Backend & Dashboard (Central Server / UI)
+# ==========================================
+/backend/
+/dashboard/
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# Documentation, Reports & Logs
+# ==========================================
+*.docx
+*.doc
+*.pdf
+*.xls
+*.xlsx
+*.csv
+*.log
+*.tmp
+ANPR_Training_Report_*.md
+PlateVision_AI_Project_Review.md
+
+# Ignore report generation scripts if not needed
+generate_*_report.py
+generate_flowcharts.py
+convert_report_to_docx.py
+
+# ==========================================
+# Text files exception
+# ==========================================
+*.txt
+!requirements.txt
+!ocr2/dict.txt

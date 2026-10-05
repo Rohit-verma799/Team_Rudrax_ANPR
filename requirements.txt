@@ -1,0 +1,22 @@
+# Vehicle Tracking
+supervision==0.27.0.post1
+
+# Deep Learning
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+ultralytics==8.4.83
+
+# OCR
+paddlepaddle==2.6.2
+# paddlepaddle-gpu==2.6.2  # Uncomment for GPU support
+paddleocr==2.7.0.3
+
+# Image Processing
+opencv-python==4.6.0.66
+Pillow==12.1.1
+numpy==1.26.4
+
+# Utilities
+tqdm==4.67.3
+PyYAML==6.0.2  # Use onnxruntime for CPU-only
